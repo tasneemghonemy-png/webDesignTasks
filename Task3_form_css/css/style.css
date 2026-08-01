@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10% 5%;
+    height: 100%;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: rgb(10, 131, 161);
+}
+
+.container p {
+    padding: 10px 20px;
+}
+
+.container input {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 70%;
+    background-color: lightgray;
+    border: none;
+}
+
+.container textarea {
+    width: 70%;
+    margin-top: 15px;
+    background-color: lightgray;
+    height: 60px;
+    border: none;
+}
+
+form {
+    background-color: white;
+}
+.custom-div{
+    width: 80%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.container .btn {
+    color: white;
+    background-color: rgb(10, 131, 161);
+    text-transform: upperCase;
+    border-radius: 20px;
+    width: 30%;
+}
