@@ -1,0 +1,83 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Ubuntu", sans-serif; */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Global style */
+.container {
+    width: 80%;
+    margin: auto;
+    /* padding: 2% 0%; */
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-primary {
+    color: orangered
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.padding-top-bottom {
+    padding: 1% 0%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Customestyle */
+nav ul li {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+nav ul {
+    width: 37.5%;
+    float: right;
+}
+
+.logo {
+    font-size: 29px;
+}
+
+/* nav */
