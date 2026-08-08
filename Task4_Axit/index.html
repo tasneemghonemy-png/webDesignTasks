@@ -4,28 +4,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Axit</title>
+    <!-- links for font -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- my style sheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    
+    <!-- -----------------------------------nav ----------------------------------->
     <nav class="text-white bg-dark">
-        <div class="container padding-top-bottom">
+        <div class="container">
             <p class="logo upperCase float-left">
                 <span class=" bold-text">ax</span> <span class="text-primary">it </span>
             </p>
-        <ul class="float-right">
-            <li><a href="">Feature</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">pricing</a></li>
-            <li><a href="">reviews</a></li>
-            <li><a href="">contact</a></li>
-        </ul>
-        <div class="clear"></div>
+            <ul class="float-right ">
+                <li class="display-inline-block"><a href="#Feature">Feature</a></li>
+                <li class="display-inline-block"><a href="#about">about</a></li>
+                <li class="display-inline-block"><a href="#pricing">pricing</a></li>
+                <li class="display-inline-block"><a href="#reviews">reviews</a></li>
+                <li class="display-inline-block"><a href="#contact">contact</a></li>
+            </ul>
+            <div class="clear"></div>
     </nav>
+    <!-- -----------------------------------blanner section ----------------------------------->
+    <section class="banner ">
+        <div class="overlay padding-top-bottom">
+            <div class="container">
+                <div class="float-left half-width">
+                    <h1 class="upperCase"> <span class="text-white bold-text">ax</span> <span
+                            class="text-primary  bold-text">it </span></h1>
+                    <h3 class="upperCase text-white padding-top-bottom">modern axume taamplet for beautiful prototupes
+                    </h3>
+                    <hr class="hr-white">
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis soluta minus
+                        totam. Nostrum, ut quos!minus totam. Nostrum, ut quos!</p>
+                    <button class="btn-transparent capitalize text-white"> download</button>
+                </div>
+                <form action="" method="post" class="float-right text-center bg-white third-width">
+                    <h3 class="capitalize bg-gray padding-top-bottom">try your <span
+                            class="text-primary upperCase">free</span> trial today </h3>
+                    <input type="text" name="name" placeholder="name" class="capitalize">
+                    <input type="email" name="email" placeholder="email" class="capitalize">
+                    <input type="password" name="password" placeholder="password" class="capitalize margin-bottom">
+                    <button class="capitalize text-white bg-primary form-btn">get started</button>
+                </form>
+                <div class="clear"></div>
+            </div>
         </div>
+    </section>
+    <!-- -----------------------------------tabs section ----------------------------------->
+    <section class="padding-top-bottom bg-gray" id="about">
+        <div class="container">
+            <div class="tabs float-left">
+                <div class="upperCase tab-card bg-primary text-white">tab1</div>
+                <div class="upperCase tab-card bg-dark text-white">tab2</div>
+                <div class="upperCase tab-card bg-dark text-white">tab3</div>
+            </div>
+            <div class="tabs-topic float-left margin-left-right">
+                <h3>taps with soft transformation effect</h3>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aliquam nam at
+                    voluptate reprehenderit vitae
+                    placeat laudantium sed, dicta, odit inventore necessitatibus, consectetur quos nobis voluptas
+                    possimus
+                    ipsam eos nostrum.</p>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, quo.</p>
+                <button class="capitalize text-white btn bg-primary">download</button>
+            </div>
+            <div class="float-right reflected-img">
+                <img src="assets/images/city skyline silhouette vector .png">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- -----------------------------------awesome section ----------------------------------->
+    <section class="container text-center " id="#Feature">
+        <h2 class="padding-top-bottom ">why this is awesome</h2>
+        <hr class="hr-style hr-primary">
+        <p class="padding-top-bottom text-light"> dolor sit amet consectetur adipisicing elit. Soluta,
+            distinctio.</p>
+        <div class="card padding-top-bottom float-left third-width">
+            <i class="icon-style fa-regular fa-lightbulb"></i>
+            <h3 class="capitalize padding-top-bottom">thoughtful design </h3>
+            <p class="text-light padding-top-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                maxime aliquid quas deserunt debitis maxime aliquid quas deserunt debitis
+                suscipit error.
+            </p>
+        </div>
+        <div class="card margin-left-right padding-top-bottom float-left third-width">
+            <i class="icon-style fa-regular fa-keyboard"></i>
+            <h3 class="capitalize padding-top-bottom">well crafted</h3>
+            <p class="text-light padding-top-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                maxime aliquid quas deserunt debitis suscipit error maxime aliquid quas deserunt debitis.
+            </p>
+
+        </div>
+        <div class="card padding-top-bottom float-right third-width">
+            <i class="icon-style fa-solid fa-bolt"></i>
+            <h3 class="capitalize padding-top-bottom">easy to customize</h3>
+            <p class="text-light padding-top-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                maxime aliquid quas deserunt debitis maxime aliquid quas deserunt debitissuscipit error.
+            </p>
+        </div>
+        <div class="clear"></div>
+
+    </section>
+    <!-- -----------------------------------pricing section ----------------------------------->
+    <section class="padding-top-bottom bg-gray" id="pricing">
+        <div class="container text-center">
+            <h3 class="upperCase padding-top-bottom">pricing options</h3>
+            <hr class="hr-style hr-primary">
+            <p class="padding-top-bottom text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+                atque?</p>
+            <div class="float-left pricing-card padding-top third-width">
+                <h3 class="capitalize text-white bg-dark">basics</h3>
+                <hr>
+                <p class="text-white bg-dark capitalize border-primary">
+                    <span class="font-size-mid">&dollar;</span> <span class="font-size-large">0</span>
+                    <span class="block text-light">free for life</span>
+                </p>
+                <p class="text-light upperCase bg-white border-gray">1 gb of space</p>
+                <p class="text-light upperCase bg-white border-gray">10 gb of bandwidth</p>
+                <p class="text-light upperCase bg-white border-gray">basic cusomization</p>
+                <p class="text-light upperCase bg-white border-gray">wordpress integration</p>
+                <p class="text-light upperCase bg-white border-gray">email support</p>
+            </div>
+
+            <div class="float-left pricing-card margin-left-right third-width">
+                <h3 class="capitalize text-white bg-dark">professional</h3>
+                <hr>
+                <p class="text-white bg-dark capitalize">
+                    <span class="font-size-mid">&dollar;</span> <span class="font-size-large">19</span>
+                    <span class="block text-light">monthly payment</span>
+                </p>
+                <p class="bg-primary text-white">our most popular</p>
+                <p class="text-light upperCase bg-white border-gray">5 gb of space</p>
+                <p class="text-light upperCase bg-white border-gray">50 gb of bandwidth</p>
+                <p class="text-light upperCase bg-white border-gray">advanced customization</p>
+                <p class="text-light upperCase bg-white border-gray">wordpress integration</p>
+                <p class="text-light upperCase bg-white border-gray">email support</p>
+            </div>
+            <div class="float-right pricing-card padding-top third-width">
+                <h3 class="capitalize text-white bg-dark">enterprise</h3>
+                <hr>
+                <p class="text-white bg-dark capitalize border-primary">
+                    <span class="font-size-mid">&dollar;</span> <span class="font-size-large">70</span>
+                    <span class="block text-light">monthly payment</span>
+                </p>
+                <p class="text-light upperCase bg-white border-gray">unlimited space</p>
+                <p class="text-light upperCase bg-white border-gray">unlimited bandwidth</p>
+                <p class="text-light upperCase bg-white border-gray">100 websites</p>
+                <p class="text-light upperCase bg-white border-gray">wordpress integration</p>
+                <p class="text-light upperCase bg-white border-gray">24/7 customer support</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+    </section>
+    <!-- -----------------------------------what are cutomers saying section ----------------------------------->
+    <section class="container text-center padding-top-bottom" id="reviews">
+        <h2 class="padding-top-bottom ">what our cutomers are saying</h2>
+        <hr class="hr-style hr-primary">
+        <p class="padding-top-bottom text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quo!
+        </p>
+        <div class="person-card float-left text-left third-width">
+            <p class="bg-gray text-light padding-top-bottom margin-bottom">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Dolorem iste, amet dolore dignissimos aut
+                officiis itaque, voluptas</p>
+            <div class="tringle"></div>
+            <img class="display-inline-block" src="assets/images/person.png" alt="">
+
+            <div class="display-inline-block">
+                <h3 class="display-inline-block capitalize">jermmy H.</h3>
+                <p class="text-light capitalize">manager</p>
+            </div>
+        </div>
+
+        <div class="person-card float-left text-left third-width margin-left-right">
+            <p class="bg-gray text-light padding-top-bottom margin-bottom">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Dolorem iste, amet dolore dignissimos aut
+                officiis itaque, voluptas</p>
+            <div class="tringle"></div>
+            <img class="display-inline-block" src="assets/images/person.png" alt="">
+
+            <div class="display-inline-block">
+                <h3 class="display-inline-block capitalize">jermmy H.</h3>
+                <p class="text-light capitalize">manager</p>
+            </div>
+        </div>
+        <div class="person-card float-left text-left third-width">
+            <p class="bg-gray text-light padding-top-bottom margin-bottom">Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Dolorem iste, amet dolore dignissimos aut
+                officiis itaque, voluptas</p>
+            <div class="tringle"></div>
+            <img class="display-inline-block" src="assets/images/person.png" alt="">
+
+            <div class="display-inline-block">
+                <h3 class="display-inline-block capitalize">jermmy H.</h3>
+                <p class="text-light capitalize">manager</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <!-- -----------------------------------what cutomers says section ----------------------------------->
+    <section class="bg-img text-center  ">
+        <div class="overlay">
+            <div class="container ">
+                <h2 class="upperCase text-white padding-top-bottom">stylish axure design</h2>
+                <hr class="hr-style">
+                <p class="text-light padding-top-bottom">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Optio, quae?</p>
+                <button class="btn-transparent capitalize text-white"> download</button>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------------contact us section ----------------------------------->
+    <section class="contact container text-center padding-top-bottom" id="contact">
+        <h2 class="upperCase">contact us</h2>
+        <p class="padding-top-bottom text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad!</p>
+        <hr class="hr-primary hr-style">
+        <form action="" method="post">
+            <div class="float-left half-width">
+                <input type="text" name="name" placeholder="name" class="capitalize">
+                <input type="email" name="email" placeholder="email" class="capitalize">
+                <input type="text" name="subject" placeholder="subject" class="capitalize">
+            </div>
+            <textarea name="message" class="capitalize float-right half-width padding-top-bottom "
+                placeholder="message"></textarea>
+            <div class="clear"></div>
+            <button class="capitalize text-white btn bg-primary">send message</button>
+        </form>
+    </section>
+    <!-- -----------------------------------footer----------------------------------->
+     
+    <footer class="bg-dark text-center ">
+       <div class="container">
+         <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-solid fa-wifi"></i>
+       </div>
+    </footer>
 </body>

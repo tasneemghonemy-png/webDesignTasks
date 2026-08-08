@@ -14,19 +14,29 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../assets/Montserrat-Regular.ttf') format('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 /* Global style */
 .container {
     width: 80%;
     margin: auto;
-    /* padding: 2% 0%; */
+    padding: 1% 0%;
+}
+
+.third-width {
+    width: 30%;
 }
 
 .bg-dark {
@@ -35,6 +45,10 @@ body {
 
 .text-white {
     color: white;
+}
+
+.text-light {
+    color: rgb(167, 161, 161);
 }
 
 .text-primary {
@@ -57,27 +71,271 @@ body {
     text-transform: uppercase;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 .padding-top-bottom {
-    padding: 1% 0%;
+    padding: 3% 0%;
+}
+
+.padding-top {
+    padding-top: 4%;
+}
+
+.hr-style {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr-primary {
+    border: 1.5px solid orange;
+}
+
+.hr-white {
+    border: 1.5px solid white;
+    margin-right: auto;
+    margin: 5% 0%;
 }
 
 .bold-text {
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.margin-left-right {
+    margin: 0% 5%;
+}
+
+.bg-gray {
+    background-color: rgb(233, 232, 232);
+}
+
+.bg-primary {
+    background-color: orange;
+}
+
+.btn {
+    border: none;
+    /* padding: 4% 7%; */
+    padding: 10px 15px;
+    margin: 5% 0%;
+    border-radius: 3px;
+}
+
+.block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
 }
 
 /* Customestyle */
 nav ul li {
-    display: inline-block;
+
     margin-left: 2%;
 }
 
 nav ul {
-    width: 37.5%;
-    float: right;
+    width: 38%;
 }
 
 .logo {
-    font-size: 29px;
+    font-size: 35px;
+    font-weight: 900;
 }
 
-/* nav */
+.card p {
+    font-size: 10px;
+}
+
+.icon-style {
+    border: 1.5px orange solid;
+    color: orange;
+    padding: 3%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+
+}
+
+.banner {
+    background-image: url("../assets/images/nature.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+}
+
+
+.overlay {
+    background-color: #00000070
+}
+
+
+.btn-transparent {
+    background: transparent;
+    border: 2px white solid;
+    padding: 2% 5%;
+    margin: 5% 0%;
+}
+
+.banner .overlay .container form input {
+    padding: 11% 0% 2%;
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    display: block;
+    border-bottom: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .overlay .container form {
+    border-radius: 3px;
+}
+
+.form-btn {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 6% 15%;
+}
+
+.banner .overlay .container form h3 {
+    border-radius: 3px;
+}
+
+.margin-bottom {
+    margin-bottom: 10%;
+}
+
+.container .tabs {
+    width: 10%;
+}
+
+.container .tab-card {
+    padding: 40% 25%;
+    margin-bottom: 2%;
+}
+
+.container .tabs-topic {
+    width: 40%;
+    margin: 0% 8%;
+}
+
+.container .tabs-topic p {
+    margin: 8% 0%;
+}
+
+.reflected-img {
+    width: 27%
+}
+
+.reflected-img img {
+    width: 100%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+
+
+.pricing-card h3 {
+    padding: 4% 7%;
+}
+
+.pricing-card p {
+    font-size: 10px;
+    padding: 5% 2%;
+}
+
+.font-size-mid {
+    font-size: 20px;
+}
+
+.font-size-large {
+    font-size: 45px;
+}
+
+.pricing-card span {
+
+    font-weight: bolder;
+}
+
+.border-primary {
+    border-bottom: 4px orange solid;
+}
+
+.border-gray {
+    border-bottom: lightgray 1px solid;
+}
+
+.person-card img {
+    border-radius: 50%;
+    width: 20%;
+    display: inline-block;
+}
+
+.person-card p {
+    padding: 5%;
+}
+
+.person-card .tringle {
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(233, 232, 232);
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.bg-img {
+    background-image: url("../assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contact form input {
+    padding: 11% 0% 2%;
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    display: block;
+}
+
+.contact form textarea {
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgray;
+    resize: none;
+    height: 200px;
+    margin-top: 2%;
+}
+
+footer i {
+    margin-left: 10px;
+    color: white;
+}
