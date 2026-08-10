@@ -1,0 +1,93 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* global style */
+.container {
+    width: 90%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-conteent-evenly {
+    justify-content: space-evenly;
+}
+
+.column-gap {
+    column-gap: 10px;
+}
+
+.padding-top-bottom {
+    padding: 2% 0%;
+}
+
+.text-light {
+    color: rgb(161, 161, 161);
+}
+
+.primary {
+    color: rgb(10, 61, 78);
+}
+
+.bg-secondary {
+    background-color: orange;
+
+}
+
+.search-input {
+    padding: 12px 83px;
+    outline: none;
+    border: none;
+}
+
+.search-btn {
+    border: none;
+    padding: 12px 20px;
+}
+
+/* custome styla */
+.logo {
+    font-size: 25px;
+}
+
+.btn {
+    padding: 7px 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.bg-img {
+    background-image: url("../assets/images/light-blue-building.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: right;
+    padding: 5% 5% 25% 15%;
+}
+
+.bg-img form {
+    margin-top: 43px;
+    box-shadow: 0px 2px 2px 2px rgb(0, 0, 0, .2);
+    width: 52.6%;
+}
