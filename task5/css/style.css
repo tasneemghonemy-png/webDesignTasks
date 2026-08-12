@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -17,6 +23,17 @@ ul li {
 /* global style */
 .container {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
 }
 
 .d-flex {
@@ -31,17 +48,35 @@ ul li {
     align-items: center;
 }
 
-.justify-conteent-evenly {
+.justify-content-evenly {
     justify-content: space-evenly;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .column-gap {
     column-gap: 10px;
 }
 
-.padding-top-bottom {
-    padding: 2% 0%;
+.align-content-between {
+    align-content: space-between;
 }
+
+.row-gap {
+    row-gap: 20px;
+}
+
+.row-gap-50 {
+    row-gap: 50px;
+}
+
+.shadow {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, .4);
+}
+
+
 
 .text-light {
     color: rgb(161, 161, 161);
@@ -51,23 +86,92 @@ ul li {
     color: rgb(10, 61, 78);
 }
 
+.secondary {
+    color: orange;
+}
+
+.bg-primary {
+    background-color: rgb(10, 61, 78);
+}
+
+.text-white {
+    color: white;
+}
+
 .bg-secondary {
     background-color: orange;
 
+}
+
+.bg-gray {
+    background-color: rgb(232, 231, 231);
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .search-input {
     padding: 12px 83px;
     outline: none;
     border: none;
+    flex-grow: 1;
 }
 
 .search-btn {
     border: none;
-    padding: 12px 20px;
+    padding: 5px 21px;
+
 }
 
-/* custome styla */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.half-width {
+    width: 45%;
+}
+
+.width-100 {
+    width: 100%;
+}
+.width-15{
+    width: 15%;
+}
+.height-100 {
+    height: 100%;
+    ;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.padding-top-bottom {
+    padding: 3% 0%;
+}
+
+.line-h-30 {
+    line-height: 25px;
+}
+
+/* custome style*/
+nav {
+    padding: 2% 0%;
+}
+
 .logo {
     font-size: 25px;
 }
@@ -79,7 +183,7 @@ ul li {
 }
 
 .bg-img {
-    background-image: url("../assets/images/light-blue-building.png");
+    background-image: url("../assets/images/bg-img.png");
     background-repeat: no-repeat;
     background-size: 70% 100%;
     background-position: right;
@@ -88,6 +192,164 @@ ul li {
 
 .bg-img form {
     margin-top: 43px;
-    box-shadow: 0px 2px 2px 2px rgb(0, 0, 0, .2);
-    width: 52.6%;
+    width: 48%;
+}
+
+.bg-img .icons {
+    width: 40%;
+    padding: 2%;
+    top: 87%;
+    left: 60%;
+}
+
+.bg-img a {
+    bottom: 0%;
+    writing-mode: sideways-rl;
+    padding: 3px;
+
+}
+
+.bg-img a i {
+    margin-top: 10px;
+
+}
+
+.padding {
+    padding: 8%;
+}
+
+.custom-padding {
+    padding: 8px 0px;
+}
+
+.custom-margin {
+    margin: 30px 0px;
+}
+
+.custome-font {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.card {
+    text-align: center;
+
+}
+
+.card p {
+    padding: 10px;
+
+}
+
+.custome-card {
+    width: 32%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.custome-card .card-padding {
+    padding: 10px;
+}
+
+.custome-card .card-padding p {
+    padding: 5px;
+}
+
+.custome-card .card-padding .d-flex {
+    margin-top: 10px;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.number-card {
+    width: 30%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.custome-number {
+    font-size: 150px;
+    font-weight: 300;
+    bottom: 200px;
+    right: 160px;
+}
+
+.number-card h3 {
+    margin-left: 10px;
+}
+
+.number-card .container {
+    padding: 10px;
+
+}
+
+.number-card p {
+    margin: 10px 0px;
+}
+
+.number-card a {
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+.marin-top {
+    margin-top: 120px;
+}
+
+.img1 div {
+    top: 233px;
+    left: 72px;
+    text-align: center;
+    padding: 15px
+}
+
+.img2 div {
+    top: 233px;
+    left: 200px;
+    text-align: center;
+    padding: 15px
+}
+
+.primary-btn {
+    /* background-color: ; */
+}
+
+.primary-btn {
+    padding: 20px 70px;
+    margin-top: 10px;
+    border: none;
+}
+
+footer form input{
+    border: none;
+    outline: none;
+    padding: 15px 115px;
+}
+.footer-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer hr{
+    border:1px solid rgb(209, 202, 202);
+    /* margin: ; */
+}
+.small-font{
+    font-size:10px;
+}
+.custom-padding{
+    padding: 0px 10px ;
+}
+footer ul li{
+    padding: 10px 0px;
+}
+footer h3{
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+footer{
+     margin-bottom: 70px;
 }
