@@ -1,0 +1,38 @@
+/************************* Reset style *************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/************************* global style *************************/
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.primary{
+    color: #285E67;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+/************************* custome style *************************/

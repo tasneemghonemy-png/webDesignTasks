@@ -1,0 +1,40 @@
+/* reset style */
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global style */
+.bg-dark{
+    background-color: black;
+}
+.w-100{
+    width: 100%;
+}
+.w-10{
+    width: 10%;
+}
+.margin-left{
+    margin-left: 5%;
+}
+.margin-top{
+margin-top: 5%;
+}
+/* custome style */
+.bg-dark .w-10 {
+    animation-name:leftToRight ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.padding-top-bottom{
+    padding: 10% 0%;
+}
+
+/* animation */
+@keyframes leftToRight {
+ 
+    to{
+       margin-left: 100%;
+    }
+}
