@@ -16,9 +16,11 @@ ul {
     list-style: none;
     width: 30%;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /************************* global style *************************/
 .container {
     width: 90%;
@@ -33,10 +35,20 @@ html{
     color: #285E67;
 }
 
+.bg-transparent {
+    background-color: transparent;
+}
+
 .bg-primary {
     background-color: #285E67;
 }
 
+.bg-secondary {
+    background: #EBBFAE;
+}
+.bg-light-secondary{
+    background-color: #FCE2D7;
+}
 .text-white {
     color: white;
 }
@@ -47,6 +59,14 @@ html{
 
 .d-flex {
     display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .flex-wrap {
@@ -67,12 +87,16 @@ html{
 
 .btn {
     border-radius: 25px;
-    padding: 5px 25px;
+    padding: 5px 60px;
     border: none;
 }
 
 .w-50 {
     width: 48%;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .border-radius {
@@ -120,10 +144,17 @@ h2 {
 }
 
 /************************* custome style *************************/
+.logo img {
+    width: 30%;
+    height: 10%;
+    margin-top: 10%;
+}
+
 .custome-icon {
-    text-align: center;
-    padding: 12px 29px 12px 14px;
-    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    padding-top: 13px;
+    border-radius: 5px;
 }
 
 .custome-circle-icon {
@@ -132,4 +163,57 @@ h2 {
     border: 1px solid #285E67;
     width: 30px;
     height: 30px;
+}
+
+.bg-img {
+    background-image: url("../images/6ffa38c75963c1395d4cd22dd87078f89d5c9065.jpg");
+    background-size: 100% 490px;
+    background-repeat: no-repeat;
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+.custome-container {
+    width: 50%;
+    margin: auto;
+
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.custome-padding {
+    padding: 70px 0px;
+}
+
+.bg-img .container i {
+    border-radius: 50%;
+    padding: 15px 0px 0px 0px;
+    border: 1px solid #285E67;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+.margin-left{
+        margin: 0px 60px 0px 0px;
+
+}
+
+footer li{
+    font-size: 14px;
+    font-weight: 200;
+}
+footer .icons{
+    margin-top: 10px;
+   
+}
+footer .icons i{
+     margin-right: 20px;
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
 }
