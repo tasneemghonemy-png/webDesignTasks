@@ -1,0 +1,14 @@
+/* global style */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* custome style */
+.custome-border{
+    border: 1px solid lightgray;
+}
+@media (max-width: 992px) {
+    .custome-border{
+        border: none;
+    }
+}
