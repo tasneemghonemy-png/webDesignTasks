@@ -1,14 +1,22 @@
 /* global style */
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
 
 /* custome style */
-.custome-border{
+.custome-border {
     border: 1px solid lightgray;
 }
+
+.bg-img {
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-size: 121% 128%;
+    background-position: left top;
+}
+
 @media (max-width: 992px) {
-    .custome-border{
+    .custome-border {
         border: none;
     }
 }
