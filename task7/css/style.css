@@ -8,15 +8,25 @@ body {
     border: 1px solid lightgray;
 }
 
+a{
+    color: inherit !important;
+}
+html{
+    scroll-behavior: smooth;
+}
 .bg-img {
+    padding: 40px 0px;
     background-image: url(../images/home.png);
     background-repeat: no-repeat;
-    background-size: 121% 128%;
+    background-size: 120% 130%;
     background-position: left top;
 }
 
 @media (max-width: 992px) {
     .custome-border {
         border: none;
+    }
+    .custme-width{
+        width: 100%;
     }
 }

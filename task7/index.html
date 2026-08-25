@@ -22,16 +22,76 @@
 <body>
     <!----------------------------home section------------------------------->
     <section class="bg-img text-white">
-        <div class="container py-5">
-            <div class="col-5">
-                <h1>Pawsitively Perfect: Where Every Pet's Dream Comes True!</h1>
-                <p>Welcome to Paws n’ Play, the ultimate destination for pet lovers! Explore a world of tail-wagging joy
+        <div class="container pb-5 ">
+            <nav class="navbar navbar-expand-lg bg-transparent p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">
+                        <i class="fa-solid fa-paw"></i>
+                        Paws n’ Play
+                    </a>
+                    <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark">
+
+                        <span class="navbar-toggler-icon  "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white fs-6">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    services
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    shop
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">blog</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                        <button class="btn bg-white rounded-pill  px-3 py-1">get started</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="col-5 p-5">
+                <h1 class="py-2">Pawsitively Perfect: Where Every Pet's Dream Comes True!</h1>
+                <p class="py-2">Welcome to Paws n’ Play, the ultimate destination for pet lovers! Explore a world of
+                    tail-wagging joy
                     and
                     furry companionship with our wide range of products and services. From pampering essentials to
                     playful
                     toys,
                     we're here to make every moment with your pet pawsitively perfect!"</p>
-                <button class="text-white rounded-pill btn btn-outline-secondary">shop now</button>
+                <button class="text-white rounded-pill btn btn-outline-secondary py-3 px-4 ">
+                    shop now
+                    <i class="fa-solid fa-paw"></i>
+
+                </button>
             </div>
         </div>
     </section>
@@ -44,7 +104,7 @@
             <div class="row row-cols-4 px-2">
                 <h5>featured products</h5>
                 <input type="text" placeholder="search"
-                    class="ms-auto border border-none rounded-pill bg-body-secondary p-2">
+                    class="ms-auto border border-none rounded-pill bg-body-secondary p-2 d-md-none d-lg-inline-block">
                 <!-- <i class="start-0 fa-solid fa-magnifying-glass"></i> -->
             </div>
             <div class="row row-cols-5 col-12 col-lg-6 m-auto py-4">
@@ -184,7 +244,7 @@
         </div>
     </section>
     <!---------------------------- blog section------------------------------->
-    <section class="container-fluid d-none d-lg-block ">
+    <section class="container-fluid d-none d-lg-block " id="blog">
         <i class="fa-solid fa-paw"></i>
         <span class="text-capitalize">blog</span>
         <hr>
@@ -219,13 +279,13 @@
             </div>
         </div>
     </section>
-    <!-- footer -->
+    <!------------------------- footer --------------------------->
     <footer class="bg-dark text-white">
         <div class="container py-5">
             <i class="fa-solid fa-paw"></i>
             <span class="fs-4">get in toutch</span>
             <hr>
-            <div class="row row-cols-md-1 row-cols-lg-2 justify-content-between">
+            <div class="row row-cols-md-1 row-cols-lg-2 flex-md-column-reverse flex-lg-row justify-content-between">
                 <form class="col bg-white rounded-3 py-4" action="">
                     <div class="row row-cols-2 ">
                         <div class="col">
@@ -291,13 +351,12 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, reprehenderit.</p>
                 </div>
                 <div class="col">
-                    <div class="row row-cols-md-1 row-cols-lg-2">
+                    <div class="row row-cols-md-1 row-cols-lg-2 justify-content-between gy-md-3">
                         <div class="col">
                             <input type="email" class="form-control" placeholder="email">
                         </div>
                         <div class="col">
-                            <button class="btn btn-light">subscrie</button>
-
+                            <button class="btn btn-light custme-width">subscrie</button>
                         </div>
                     </div>
                 </div>
@@ -364,7 +423,7 @@
                 <div class="col">
                     <p>© 2024 Paws n’ Play. All rights reserved.</p>
                 </div>
-                <div class="col text-end">
+                <div class="col text-end" id="contact">
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-linkedin-in"></i>
