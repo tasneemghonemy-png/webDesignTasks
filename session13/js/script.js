@@ -11,7 +11,7 @@ function print(){
       console.log(i);
     }
   }
-   else console.log('please enter number')
+   alert('please enter number')
 }
 // print();
 
